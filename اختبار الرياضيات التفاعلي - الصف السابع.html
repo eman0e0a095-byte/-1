@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<!-- saved from url=(0133)file:///C:/Users/Acer/Desktop/%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1%20%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A%207%D9%81%D8%B5%D9%841.html -->
+<html lang="ar" dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار الرياضيات التفاعلي - الصف السابع</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="./اختبار الرياضيات التفاعلي - الصف السابع_files/saved_resource"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="./اختبار الرياضيات التفاعلي - الصف السابع_files/all.min.css">
+    <!-- Google Arabic Font 'Cairo' -->
+    <link href="./اختبار الرياضيات التفاعلي - الصف السابع_files/css2" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Cairo', sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #a855f7 0%, #ec4899 50%, #3b82f6 100%);
+            min-height: 100vh;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.93);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.5);
+        }
+        .bounce-slow {
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(-3px); }
+            50% { transform: translateY(3px); }
+        }
+        .quiz-option {
+            transition: all 0.25s ease-in-out;
+        }
+        .quiz-option:hover {
+            transform: translateX(-6px);
+        }
+        /* Style for print certificate */
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+            #certificate-print-area, #certificate-print-area * {
+                visibility: visible;
+            }
+            #certificate-print-area {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background: #fff !important;
+            }
+            .no-print {
+                display: none !important;
+            }
+        }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.-bottom-10{bottom:-2.5rem}.-left-10{left:-2.5rem}.-right-10{right:-2.5rem}.-top-10{top:-2.5rem}.bottom-3{bottom:0.75rem}.left-3{left:0.75rem}.right-3{right:0.75rem}.top-3{top:0.75rem}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.ml-1{margin-left:0.25rem}.mt-1{margin-top:0.25rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.hidden{display:none}.h-10{height:2.5rem}.h-3{height:0.75rem}.h-32{height:8rem}.h-full{height:100%}.min-h-screen{min-height:100vh}.w-0{width:0px}.w-10{width:2.5rem}.w-32{width:8rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-3xl{max-width:48rem}.max-w-md{max-width:28rem}.-rotate-2{--tw-rotate:-2deg;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.list-inside{list-style-position:inside}.list-disc{list-style-type:disc}.flex-wrap{flex-wrap:wrap}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.space-x-1 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.25rem * var(--tw-space-x-reverse));margin-left:calc(0.25rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-3 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.75rem * var(--tw-space-x-reverse));margin-left:calc(0.75rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.25rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-y-8 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.space-x-reverse > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:1}.overflow-hidden{overflow:hidden}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-8{border-width:8px}.border-b-2{border-bottom-width:2px}.border-t{border-top-width:1px}.border-dashed{border-style:dashed}.border-double{border-style:double}.border-amber-200{--tw-border-opacity:1;border-color:rgb(253 230 138 / var(--tw-border-opacity, 1))}.border-amber-300{--tw-border-opacity:1;border-color:rgb(252 211 77 / var(--tw-border-opacity, 1))}.border-amber-400{--tw-border-opacity:1;border-color:rgb(251 191 36 / var(--tw-border-opacity, 1))}.border-blue-200{--tw-border-opacity:1;border-color:rgb(191 219 254 / var(--tw-border-opacity, 1))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity, 1))}.border-purple-100{--tw-border-opacity:1;border-color:rgb(243 232 255 / var(--tw-border-opacity, 1))}.border-purple-200{--tw-border-opacity:1;border-color:rgb(233 213 255 / var(--tw-border-opacity, 1))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199 / var(--tw-bg-opacity, 1))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229 / var(--tw-bg-opacity, 1))}.bg-emerald-500{--tw-bg-opacity:1;background-color:rgb(16 185 129 / var(--tw-bg-opacity, 1))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity, 1))}.bg-pink-400{--tw-bg-opacity:1;background-color:rgb(244 114 182 / var(--tw-bg-opacity, 1))}.bg-purple-100{--tw-bg-opacity:1;background-color:rgb(243 232 255 / var(--tw-bg-opacity, 1))}.bg-purple-600{--tw-bg-opacity:1;background-color:rgb(147 51 234 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/80{background-color:rgb(255 255 255 / 0.8)}.bg-white\/90{background-color:rgb(255 255 255 / 0.9)}.bg-yellow-300{--tw-bg-opacity:1;background-color:rgb(253 224 71 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-50{--tw-gradient-from:#fffbeb var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 251 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-50{--tw-gradient-from:#eff6ff var(--tw-gradient-from-position);--tw-gradient-to:rgb(239 246 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-500{--tw-gradient-from:#10b981 var(--tw-gradient-from-position);--tw-gradient-to:rgb(16 185 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-500{--tw-gradient-from:#a855f7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(168 85 247 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-yellow-400{--tw-gradient-from:#facc15 var(--tw-gradient-from-position);--tw-gradient-to:rgb(250 204 21 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-amber-50\/20{--tw-gradient-to:rgb(255 251 235 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), rgb(255 251 235 / 0.2) var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-indigo-50{--tw-gradient-to:#eef2ff var(--tw-gradient-to-position)}.to-orange-50{--tw-gradient-to:#fff7ed var(--tw-gradient-to-position)}.to-pink-500{--tw-gradient-to:#ec4899 var(--tw-gradient-to-position)}.to-teal-600{--tw-gradient-to:#0d9488 var(--tw-gradient-to-position)}.to-white{--tw-gradient-to:#fff var(--tw-gradient-to-position)}.p-3{padding:0.75rem}.p-0\.5{padding:0.125rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.pb-2{padding-bottom:0.5rem}.pr-2{padding-right:0.5rem}.pt-2{padding-top:0.5rem}.pt-6{padding-top:1.5rem}.text-center{text-align:center}.text-right{text-align:right}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-normal{font-weight:400}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.leading-snug{line-height:1.375}.tracking-tight{letter-spacing:-0.025em}.tracking-wide{letter-spacing:0.025em}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36 / var(--tw-text-opacity, 1))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6 / var(--tw-text-opacity, 1))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9 / var(--tw-text-opacity, 1))}.text-amber-800{--tw-text-opacity:1;color:rgb(146 64 14 / var(--tw-text-opacity, 1))}.text-amber-900{--tw-text-opacity:1;color:rgb(120 53 15 / var(--tw-text-opacity, 1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-blue-800{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105 / var(--tw-text-opacity, 1))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-pink-600{--tw-text-opacity:1;color:rgb(219 39 119 / var(--tw-text-opacity, 1))}.text-purple-600{--tw-text-opacity:1;color:rgb(147 51 234 / var(--tw-text-opacity, 1))}.text-purple-700{--tw-text-opacity:1;color:rgb(126 34 206 / var(--tw-text-opacity, 1))}.text-purple-800{--tw-text-opacity:1;color:rgb(107 33 168 / var(--tw-text-opacity, 1))}.text-purple-900{--tw-text-opacity:1;color:rgb(88 28 135 / var(--tw-text-opacity, 1))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.decoration-amber-400{-webkit-text-decoration-color:#fbbf24;text-decoration-color:#fbbf24}.decoration-wavy{-webkit-text-decoration-style:wavy;text-decoration-style:wavy}.opacity-40{opacity:0.4}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-xl{--tw-blur:blur(24px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-500{transition-duration:500ms}.hover\:-translate-y-1:hover{--tw-translate-y:-0.25rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.hover\:bg-emerald-600:hover{--tw-bg-opacity:1;background-color:rgb(5 150 105 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-300:hover{--tw-bg-opacity:1;background-color:rgb(209 213 219 / var(--tw-bg-opacity, 1))}.hover\:bg-purple-700:hover{--tw-bg-opacity:1;background-color:rgb(126 34 206 / var(--tw-bg-opacity, 1))}.hover\:from-emerald-600:hover{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\:to-teal-700:hover{--tw-gradient-to:#0f766e var(--tw-gradient-to-position)}.hover\:shadow-2xl:hover{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.focus\:border-purple-500:focus{--tw-border-opacity:1;border-color:rgb(168 85 247 / var(--tw-border-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.disabled\:cursor-not-allowed:disabled{cursor:not-allowed}.disabled\:opacity-40:disabled{opacity:0.4}@media (min-width: 640px){.sm\:p-6{padding:1.5rem}.sm\:p-10{padding:2.5rem}.sm\:p-4{padding:1rem}.sm\:p-7{padding:1.75rem}.sm\:p-8{padding:2rem}.sm\:text-2xl{font-size:1.5rem;line-height:2rem}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}.sm\:text-4xl{font-size:2.25rem;line-height:2.5rem}.sm\:text-5xl{font-size:3rem;line-height:1}.sm\:text-6xl{font-size:3.75rem;line-height:1}.sm\:text-base{font-size:1rem;line-height:1.5rem}.sm\:text-lg{font-size:1.125rem;line-height:1.75rem}.sm\:text-sm{font-size:0.875rem;line-height:1.25rem}.sm\:text-xl{font-size:1.25rem;line-height:1.75rem}}</style></head>
+<body class="flex items-center justify-center p-3 sm:p-6 text-gray-800 min-h-screen">
+
+    <div class="w-full max-w-3xl">
+
+        <!-- 1. LOGIN / STUDENT INFO SCREEN -->
+        <div id="login-screen" class="glass-card rounded-3xl p-6 sm:p-10 shadow-2xl text-center space-y-6 relative overflow-hidden">
+            <div class="absolute -top-10 -right-10 w-32 h-32 bg-yellow-300 rounded-full opacity-40 blur-xl"></div>
+            <div class="absolute -bottom-10 -left-10 w-32 h-32 bg-pink-400 rounded-full opacity-40 blur-xl"></div>
+            
+            <div class="inline-block p-4 bg-gradient-to-r from-yellow-400 to-amber-500 rounded-2xl shadow-lg text-white mb-2 transform -rotate-2">
+                <i class="fa-solid fa-calculator text-4xl sm:text-5xl"></i>
+            </div>
+
+            <h1 class="text-2xl sm:text-4xl font-extrabold text-purple-900 leading-snug">
+                اختبار الرياضيات التفاعلي 📐✨
+            </h1>
+            <p class="text-gray-600 text-sm sm:text-base font-semibold">
+                الوحدة التعليمية الأولى: ضرب وقسمة الأعداد العشرية (الصف السابع)
+            </p>
+
+            <div class="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 rounded-2xl border border-blue-200 text-right space-y-2">
+                <div class="flex items-center space-x-2 space-x-reverse text-blue-800 font-bold text-sm sm:text-base">
+                    <i class="fa-solid fa-circle-info text-blue-600"></i>
+                    <span>تعليمات الاختبار:</span>
+                </div>
+                <ul class="list-disc list-inside text-xs sm:text-sm text-gray-700 space-y-1 pr-2">
+                    <li>عدد الأسئلة: <b>٥ أسئلة متنوعة</b>.</li>
+                    <li>زمن الاختبار: <b>٢٥ دقيقة</b> (ينتهي العرض تلقائياً عند انتهاء الوقت).</li>
+                    <li>الدرجة الإجمالية: <b>١٠ درجات</b> (درجتان لكل سؤال).</li>
+                    <li>تنبيه: <b>يمكنك تقديم الاختبار مرة واحدة فقط</b> وسوف تحفظ النتيجة نهائياً.</li>
+                </ul>
+            </div>
+
+            <!-- Student Data Inputs -->
+            <form id="start-form" onsubmit="event.preventDefault(); startQuiz();" class="space-y-4 text-right">
+                <div>
+                    <label for="student-name" class="block text-sm font-bold text-gray-700 mb-1">
+                        <i class="fa-solid fa-user-graduate text-purple-600 ml-1"></i> اسم الطالبة الثلاثي:
+                    </label>
+                    <input type="text" id="student-name" required="" placeholder="أدخلي اسمك الكامل هنا..." class="w-full px-4 py-3 rounded-xl border-2 border-purple-200 focus:border-purple-500 focus:outline-none transition text-base font-semibold text-purple-900 bg-white/80 shadow-sm">
+                </div>
+
+                <div>
+                    <label for="student-class" class="block text-sm font-bold text-gray-700 mb-1">
+                        <i class="fa-solid fa-school text-pink-600 ml-1"></i> الصف الدراسي:
+                    </label>
+                    <select id="student-class" required="" class="w-full px-4 py-3 rounded-xl border-2 border-purple-200 focus:border-purple-500 focus:outline-none transition text-base font-semibold text-purple-900 bg-white/80 shadow-sm">
+                        <option value="">اختر الصف...</option>
+                        <option value="سابع / ١">سابع / ١</option>
+                        <option value="سابع / ٢">سابع / ٢</option>
+                        <option value="سابع / ٣">سابع / ٣</option>
+                        <option value="سابع / ٤">سابع / ٤</option>
+                        <option value="سابع / ٥">سابع / ٥</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="w-full py-4 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white font-extrabold text-lg sm:text-xl rounded-2xl shadow-xl hover:shadow-2xl transition transform hover:-translate-y-1 flex items-center justify-center space-x-2 space-x-reverse cursor-pointer">
+                    <span>ابدأ الاختبار الآن</span>
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+            </form>
+        </div>
+
+        <!-- 2. QUIZ QUESTION SCREEN -->
+        <div id="quiz-screen" class="hidden glass-card rounded-3xl p-5 sm:p-8 shadow-2xl space-y-6 relative">
+            <!-- Header Status Bar -->
+            <div class="flex flex-wrap items-center justify-between gap-3 bg-white/90 p-3 sm:p-4 rounded-2xl border border-purple-100 shadow-sm">
+                <div class="flex items-center space-x-3 space-x-reverse">
+                    <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center text-purple-700 font-bold text-lg">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div>
+                        <p id="display-student-name" class="font-extrabold text-purple-900 text-sm sm:text-base"></p>
+                        <p id="display-student-class" class="text-xs text-purple-600 font-bold"></p>
+                    </div>
+                </div>
+
+                <!-- Timer Badge -->
+                <div class="flex items-center space-x-2 space-x-reverse bg-amber-100 text-amber-900 px-4 py-2 rounded-xl border border-amber-300 font-mono font-bold text-base sm:text-lg">
+                    <i class="fa-solid fa-clock text-amber-600 bounce-slow"></i>
+                    <span>الوقت المتبقي:</span>
+                    <span id="timer-display" class="text-red-600 dir-ltr inline-block">25:00</span>
+                </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="space-y-1">
+                <div class="flex justify-between text-xs sm:text-sm font-bold text-gray-600">
+                    <span id="question-tracker">السؤال ١ من ٥</span>
+                    <span id="progress-percent">0%</span>
+                </div>
+                <div class="w-full bg-gray-200 h-3 rounded-full overflow-hidden p-0.5">
+                    <div id="progress-bar" class="bg-gradient-to-r from-purple-500 to-pink-500 h-full rounded-full transition-all duration-500 w-0"></div>
+                </div>
+            </div>
+
+            <!-- Question Card Container -->
+            <div id="question-card" class="bg-white rounded-2xl p-5 sm:p-7 shadow-md border-2 border-purple-100 space-y-5">
+                <div class="inline-block bg-purple-100 text-purple-800 text-xs sm:text-sm font-extrabold px-3 py-1 rounded-full" id="question-category">
+                    رياضيات - ضرب وقسمة
+                </div>
+                <h2 id="question-text" class="text-lg sm:text-2xl font-bold text-gray-800 leading-relaxed">
+                    <!-- Question text injected here -->
+                </h2>
+
+                <!-- Options List -->
+                <div id="options-container" class="space-y-3 pt-2">
+                    <!-- Options injected here -->
+                </div>
+            </div>
+
+            <!-- Quiz Navigation -->
+            <div class="flex justify-between items-center pt-2">
+                <button id="prev-btn" onclick="navigateQuestion(-1)" class="px-5 py-2.5 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold rounded-xl transition flex items-center space-x-1 space-x-reverse disabled:opacity-40 disabled:cursor-not-allowed">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <span>السابق</span>
+                </button>
+
+                <button id="next-btn" onclick="navigateQuestion(1)" class="px-6 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl shadow-md transition flex items-center space-x-1 space-x-reverse">
+                    <span>التالي</span>
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+
+                <button id="submit-btn" onclick="confirmSubmit()" class="hidden px-6 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold rounded-xl shadow-lg transition flex items-center space-x-1 space-x-reverse">
+                    <i class="fa-solid fa-check"></i>
+                    <span>إنهاء وتسليم الاختبار</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- 3. RESULT & CERTIFICATE SCREEN -->
+        <div id="result-screen" class="hidden glass-card rounded-3xl p-6 sm:p-10 shadow-2xl text-center space-y-8">
+            <div class="space-y-3">
+                <div class="inline-flex p-4 bg-emerald-100 text-emerald-600 rounded-full text-4xl sm:text-5xl shadow-inner">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+                <h1 class="text-3xl font-extrabold text-purple-900">تم إكمال الاختبار بنجاح! 🎉</h1>
+                <p class="text-gray-600 font-semibold text-sm sm:text-base">تمت إتاحة درجتك وشهادتك أدناه، ولا يمكن إعادة تقديم الاختبار مرة أخرى.</p>
+            </div>
+
+            <!-- Score Badge -->
+            <div class="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 p-6 rounded-3xl max-w-md mx-auto shadow-sm space-y-2">
+                <p class="text-gray-600 font-bold text-sm">النتيجة النهائية:</p>
+                <div class="text-5xl sm:text-6xl font-black text-amber-600 tracking-tight">
+                    <span id="final-score">0</span> <span class="text-2xl text-gray-500 font-bold">/ ١٠</span>
+                </div>
+                <p id="grade-appreciation" class="text-lg font-bold text-purple-800 pt-2"></p>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="flex flex-wrap justify-center gap-4 no-print">
+                <button onclick="scrollToCertificate()" class="px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl shadow-md transition flex items-center space-x-2 space-x-reverse">
+                    <i class="fa-solid fa-certificate"></i>
+                    <span>عرض شهادة التقدير</span>
+                </button>
+                <button onclick="window.print()" class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl shadow-md transition flex items-center space-x-2 space-x-reverse">
+                    <i class="fa-solid fa-print"></i>
+                    <span>طباعة أو حفظ الشهادة (PDF)</span>
+                </button>
+            </div>
+
+            <!-- Printable Certificate View -->
+            <div id="certificate-print-area" class="pt-6">
+                <div class="border-8 border-double border-amber-400 p-6 sm:p-10 rounded-3xl bg-gradient-to-b from-white via-amber-50/20 to-white relative shadow-2xl text-center space-y-6 max-w-2xl mx-auto">
+                    <!-- Corner Ornaments -->
+                    <div class="absolute top-3 right-3 text-amber-400 text-2xl"><i class="fa-solid fa-star"></i></div>
+                    <div class="absolute top-3 left-3 text-amber-400 text-2xl"><i class="fa-solid fa-star"></i></div>
+                    <div class="absolute bottom-3 right-3 text-amber-400 text-2xl"><i class="fa-solid fa-star"></i></div>
+                    <div class="absolute bottom-3 left-3 text-amber-400 text-2xl"><i class="fa-solid fa-star"></i></div>
+
+                    <div class="space-y-1">
+                        <p class="text-xs sm:text-sm font-bold text-gray-500">وزارة التربية - دولة الكويت</p>
+                        <h2 class="text-2xl sm:text-3xl font-black text-amber-700 tracking-wide">🏆 شهادة تفوق في الرياضيات 🏆</h2>
+                        <p class="text-xs text-amber-800 font-semibold">بند (١ - ٥) و بند (١ - ٦): ضرب وقسمة الأعداد العشرية</p>
+                    </div>
+
+                    <p class="text-gray-700 text-sm sm:text-base leading-relaxed">
+                        تشهد معلمة المادة بأن الطالبة المتميزة:
+                    </p>
+
+                    <div class="py-2 border-b-2 border-dashed border-amber-300">
+                        <span id="cert-student-name" class="text-2xl sm:text-3xl font-extrabold text-purple-900 underline decoration-amber-400 decoration-wavy"></span>
+                    </div>
+
+                    <p class="text-gray-700 text-sm sm:text-base">
+                        من الصف الدراسي: <b id="cert-student-class" class="text-purple-800"></b>
+                    </p>
+
+                    <p class="text-gray-700 text-sm sm:text-base leading-relaxed">
+                        قد أتمت الاختبار التفاعلي بنجاح وحصلت على درجة:
+                    </p>
+
+                    <div class="inline-block bg-amber-100 text-amber-900 border border-amber-300 font-extrabold px-6 py-2 rounded-2xl text-xl sm:text-2xl shadow-sm">
+                        <span id="cert-score"></span> / ١٠
+                    </div>
+
+                    <div class="flex justify-between items-end pt-6 text-xs sm:text-sm font-bold text-gray-600 border-t border-gray-200">
+                        <div>
+                            <p>التاريخ: <span id="cert-date"></span></p>
+                            <p class="text-emerald-700 mt-1"><i class="fa-solid fa-circle-check"></i> اختبار موثق إلكترونياً</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-purple-900 font-extrabold">توقيع المعلمة / التوجيه</p>
+                            <p class="text-xs text-gray-400 font-normal">قسم الرياضيات</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Answers Review Accordion -->
+            <div class="text-right space-y-4 pt-6 no-print">
+                <h3 class="text-xl font-bold text-purple-900 border-b-2 border-purple-200 pb-2">
+                    <i class="fa-solid fa-list-check text-purple-600 ml-1"></i> مراجعة الإجابات والحلول النموذجية:
+                </h3>
+                <div id="review-container" class="space-y-3">
+                    <!-- Reviews injected here -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // --- QUIZ DATA BASED ON UNIT 1 (LESSONS 1-5 & 1-6) WITH FRESH NUMBERS ---
+        const quizQuestions = [
+            {
+                category: "ضرب الأعداد العشرية (بند ١ - ٥)",
+                question: "أوجد ناتج ضرب العبارة التالية:  ٤٫٢ × ١٫٥ = .....",
+                options: [
+                    "٦٫٣",
+                    "٦٣",
+                    "٠٫٦٣",
+                    "٦٫٠٣"
+                ],
+                correctIndex: 0,
+                explanation: "عند ضرب ٤٢ × ١٥ = ٦٣٠، ونضع الفاصلة العشرية بعد منزلتين (منزلة في ٤٫٢ ومنزلة في ١٫٥)، فيصبح الناتج ٦٫٣٠ أو ٦٫٣"
+            },
+            {
+                category: "مسألة حياتية على الضرب (بند ١ - ٥)",
+                question: "شاركت إحدى المدارس في حملة تشجير، وزرعت شتلات تغطي مساحة ١٢٫٥ مترًا مربعًا لكل صف. إذا كان بالمدرسة ٨ صفوف، فما المساحة الكلية التي تم تغطيتها؟",
+                options: [
+                    "٩٦ مترًا مربعًا",
+                    "١٠٠ متر مربع",
+                    "١٠٥ أمتار مربعة",
+                    "١٢٥ مترًا مربعًا"
+                ],
+                correctIndex: 1,
+                explanation: "المساحة الكلية = ١٢٫٥ × ٨ = ١٠٠٫٠ متر مربع."
+            },
+            {
+                category: "قسمة عدد عشري على عدد كلي (بند ١ - ٦)",
+                question: "احسب ناتج قسمة:  ٧٫٥ ÷ ٥ = .....",
+                options: [
+                    "٠٫١٥",
+                    "١٫٥",
+                    "١٥",
+                    "٠٫٧٥"
+                ],
+                correctIndex: 1,
+                explanation: "نقسم ٧ ÷ ٥ = ١ ويبقى ٢، نرفع الفاصلة، ثم ٢٥ ÷ ٥ = ٥. فيكون الناتج النهائي ١٫٥."
+            },
+            {
+                category: "القسمة على عدد عشري (بند ١ - ٦)",
+                question: "عند إيجاد ناتج القسمة: ٣٫٦ ÷ ٠٫٤ ، فإننا نضرب المقسوم والمقسوم عليه في ١٠ فتصبح المسألة وأسهل حلاً بالصورة:",
+                options: [
+                    "٣٦ ÷ ٤ = ٩",
+                    "٣٫٦ ÷ ٤ = ٠٫٩",
+                    "٣٦ ÷ ٤٠ = ٠٫٩",
+                    "٣٦٠ ÷ ٤ = ٩٠"
+                ],
+                correctIndex: 0,
+                explanation: "للتخلص من الفاصلة في المقسوم عليه (٠٫٤)، نضرب الطرفين × ١٠ فتتحول إلى ٣٦ ÷ ٤ = ٩."
+            },
+            {
+                category: "مسألة لفظية - قسمة الأعداد العشرية (بند ١ - ٦)",
+                question: "اشترت مريم ٦ كتب متماثلة بمبلغ إجمالي قدره ١٦٫٢ دينارًا كويتيًا. ما ثمن الكتاب الواحد بالدنانير؟",
+                options: [
+                    "٢٫٥ دينار",
+                    "٢٫٧ دينار",
+                    "٣٫٢ دنانير",
+                    "٢٫٠٧ دينار"
+                ],
+                correctIndex: 1,
+                explanation: "ثمن الكتاب الواحد = ١٦٫٢ ÷ ٦ = ٢٫٧ دينار كويتي."
+            }
+        ];
+
+        // --- APP STATE VARIABLES ---
+        let currentQuestionIndex = 0;
+        let userAnswers = new Array(quizQuestions.length).fill(null);
+        let studentData = { name: "", class: "" };
+        let timerSeconds = 25 * 60; // 25 minutes timer
+        let timerInterval = null;
+        const STORAGE_KEY = "kuwait_math_g7_quiz_result_saved";
+
+        // Numbers formatted in Arabic numerals helper
+        function toArabicDigits(str) {
+            const hindiDigits = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
+            return String(str).replace(/[0-9]/g, w => hindiDigits[+w]);
+        }
+
+        // On Page Load: Check if already completed
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedResult = localStorage.getItem(STORAGE_KEY);
+            if (savedResult) {
+                const parsed = JSON.parse(savedResult);
+                showFinalResults(parsed);
+            }
+        });
+
+        // --- START QUIZ FUNCTION ---
+        function startQuiz() {
+            const nameInput = document.getElementById("student-name").value.trim();
+            const classInput = document.getElementById("student-class").value;
+
+            if (!nameInput || !classInput) return;
+
+            studentData.name = nameInput;
+            studentData.class = classInput;
+
+            document.getElementById("display-student-name").innerText = studentData.name;
+            document.getElementById("display-student-class").innerText = "الصف: " + studentData.class;
+
+            document.getElementById("login-screen").classList.add("hidden");
+            document.getElementById("quiz-screen").classList.remove("hidden");
+
+            startTimer();
+            renderQuestion();
+        }
+
+        // --- TIMER FUNCTIONALITY ---
+        function startTimer() {
+            updateTimerDisplay();
+            timerInterval = setInterval(() => {
+                timerSeconds--;
+                updateTimerDisplay();
+
+                if (timerSeconds <= 0) {
+                    clearInterval(timerInterval);
+                    alert("انتهى وقت الاختبار المخصص (٢٥ دقيقة)! سيتم تسليم إجاباتك الآن.");
+                    finishQuiz();
+                }
+            }, 1000);
+        }
+
+        function updateTimerDisplay() {
+            const mins = Math.floor(timerSeconds / 60);
+            const secs = timerSeconds % 60;
+            const formatted = `${mins < 10 ? '0' : ''}${mins}:${secs < 10 ? '0' : ''}${secs}`;
+            document.getElementById("timer-display").innerText = toArabicDigits(formatted);
+        }
+
+        // --- RENDER QUESTION ---
+        function renderQuestion() {
+            const q = quizQuestions[currentQuestionIndex];
+
+            // Category & Text
+            document.getElementById("question-category").innerText = q.category;
+            document.getElementById("question-text").innerText = q.question;
+
+            // Tracker & Progress
+            const currentNumArabic = toArabicDigits(currentQuestionIndex + 1);
+            const totalNumArabic = toArabicDigits(quizQuestions.length);
+            document.getElementById("question-tracker").innerText = `السؤال ${currentNumArabic} من ${totalNumArabic}`;
+
+            const percent = Math.round(((currentQuestionIndex + 1) / quizQuestions.length) * 100);
+            document.getElementById("progress-percent").innerText = toArabicDigits(percent) + "%";
+            document.getElementById("progress-bar").style.width = percent + "%";
+
+            // Render Options
+            const container = document.getElementById("options-container");
+            container.innerHTML = "";
+
+            const optionPrefixes = ["أ", "ب", "ج", "د"];
+
+            q.options.forEach((optText, idx) => {
+                const isSelected = userAnswers[currentQuestionIndex] === idx;
+                
+                const optBtn = document.createElement("button");
+                optBtn.className = `quiz-option w-full p-4 rounded-xl border-2 text-right flex items-center space-x-3 space-x-reverse font-bold text-base sm:text-lg transition cursor-pointer ${
+                    isSelected 
+                    ? "bg-purple-100 border-purple-600 text-purple-900 shadow-md" 
+                    : "bg-gray-50 border-gray-200 text-gray-700 hover:bg-purple-50 hover:border-purple-300"
+                }`;
+
+                optBtn.onclick = () => selectOption(idx);
+
+                optBtn.innerHTML = `
+                    <span class="w-8 h-8 rounded-lg ${isSelected ? 'bg-purple-600 text-white' : 'bg-gray-200 text-gray-600'} flex items-center justify-center font-extrabold text-sm">
+                        ${optionPrefixes[idx]}
+                    </span>
+                    <span class="flex-1">${optText}</span>
+                    ${isSelected ? '<i class="fa-solid fa-circle-check text-purple-600 text-xl"></i>' : ''}
+                `;
+
+                container.appendChild(optBtn);
+            });
+
+            // Update Navigation Buttons
+            document.getElementById("prev-btn").disabled = currentQuestionIndex === 0;
+
+            if (currentQuestionIndex === quizQuestions.length - 1) {
+                document.getElementById("next-btn").classList.add("hidden");
+                document.getElementById("submit-btn").classList.remove("hidden");
+            } else {
+                document.getElementById("next-btn").classList.remove("hidden");
+                document.getElementById("submit-btn").classList.add("hidden");
+            }
+        }
+
+        function selectOption(index) {
+            userAnswers[currentQuestionIndex] = index;
+            renderQuestion();
+        }
+
+        function navigateQuestion(direction) {
+            currentQuestionIndex += direction;
+            if (currentQuestionIndex < 0) currentQuestionIndex = 0;
+            if (currentQuestionIndex >= quizQuestions.length) currentQuestionIndex = quizQuestions.length - 1;
+            renderQuestion();
+        }
+
+        function confirmSubmit() {
+            const unanswered = userAnswers.filter(a => a === null).length;
+            if (unanswered > 0) {
+                const msg = `لديك (${toArabicDigits(unanswered)}) سؤال/أسئلة لم تقمي بإجابتها بعد. هل أنت متأكدة من تسليم الاختبار؟`;
+                if (!window.confirm(msg)) return;
+            }
+            finishQuiz();
+        }
+
+        // --- FINISH & SCORE QUIZ ---
+        function finishQuiz() {
+            clearInterval(timerInterval);
+
+            // Calculate Score (Each question = 2 points, Total = 10)
+            let score = 0;
+            quizQuestions.forEach((q, idx) => {
+                if (userAnswers[idx] === q.correctIndex) {
+                    score += 2;
+                }
+            });
+
+            const today = new Date().toLocaleDateString('ar-KW', { year: 'numeric', month: 'long', day: 'numeric' });
+
+            const resultData = {
+                studentName: studentData.name,
+                studentClass: studentData.class,
+                score: score,
+                maxScore: 10,
+                userAnswers: userAnswers,
+                date: today
+            };
+
+            // Save state permanently so student cannot re-take
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(resultData));
+
+            showFinalResults(resultData);
+        }
+
+        function showFinalResults(data) {
+            document.getElementById("login-screen").classList.add("hidden");
+            document.getElementById("quiz-screen").classList.add("hidden");
+            document.getElementById("result-screen").classList.remove("hidden");
+
+            // Fill Scores & Cert Details
+            document.getElementById("final-score").innerText = toArabicDigits(data.score);
+            document.getElementById("cert-student-name").innerText = data.studentName;
+            document.getElementById("cert-student-class").innerText = data.studentClass;
+            document.getElementById("cert-score").innerText = toArabicDigits(data.score);
+            document.getElementById("cert-date").innerText = data.date;
+
+            // Appreciation text based on score
+            let appreciation = "";
+            if (data.score === 10) appreciation = "ممتازة جداً! أدائك كامل ورائع 🌟👏";
+            else if (data.score >= 8) appreciation = "جيد جداً مرتفع! أحسنتِ صنعاً 👍✨";
+            else if (data.score >= 6) appreciation = "جيد! جهود طيبة ويمكنك التحسن أكثر 📚";
+            else appreciation = "تحتاجين إلى مراجعة درس ضرب وقسمة الأعداد العشرية جلياً 💡";
+
+            document.getElementById("grade-appreciation").innerText = appreciation;
+
+            // Render Answer Review Cards
+            const reviewContainer = document.getElementById("review-container");
+            reviewContainer.innerHTML = "";
+
+            quizQuestions.forEach((q, idx) => {
+                const userChoice = data.userAnswers[idx];
+                const isCorrect = userChoice === q.correctIndex;
+
+                const card = document.createElement("div");
+                card.className = `p-4 rounded-2xl border-2 text-right space-y-2 ${
+                    isCorrect ? "bg-emerald-50 border-emerald-300" : "bg-red-50 border-red-300"
+                }`;
+
+                const userAnsText = userChoice !== null ? q.options[userChoice] : "لم يتم الحل";
+                const correctAnsText = q.options[q.correctIndex];
+
+                card.innerHTML = `
+                    <div class="flex items-center justify-between font-bold">
+                        <span class="text-sm text-gray-600">السؤال ${toArabicDigits(idx + 1)}</span>
+                        <span class="${isCorrect ? 'text-emerald-700' : 'text-red-700'} text-sm font-extrabold flex items-center gap-1">
+                            ${isCorrect ? '<i class="fa-solid fa-circle-check"></i> إجابة صحيحة (+٢)' : '<i class="fa-solid fa-circle-xmark"></i> إجابة خاطئة (٠)'}
+                        </span>
+                    </div>
+                    <p class="font-bold text-gray-800">${q.question}</p>
+                    <div class="text-xs sm:text-sm space-y-1 pt-1">
+                        <p class="${isCorrect ? 'text-emerald-800' : 'text-red-800'}"><b>إجابتك:</b> ${userAnsText}</p>
+                        ${!isCorrect ? `<p class="text-emerald-800"><b>الإجابة الصحيحة:</b> ${correctAnsText}</p>` : ''}
+                        <p class="text-gray-600 bg-white/70 p-2 rounded-xl mt-1 border border-gray-200">💡 <b>الشرح:</b> ${q.explanation}</p>
+                    </div>
+                `;
+
+                reviewContainer.appendChild(card);
+            });
+        }
+
+        function scrollToCertificate() {
+            document.getElementById("certificate-print-area").scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+</body></html>
